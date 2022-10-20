@@ -11,6 +11,7 @@ import AVFoundation
 struct ARView: View {
     let captureSession = AVCaptureSession()
     var body: some View {
+        Button(action: <#T##() -> Void#>, label: <#T##() -> View#>)
         CameraView()
        
     }
