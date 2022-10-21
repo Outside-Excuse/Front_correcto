@@ -12,7 +12,6 @@ struct ARView: View {
     let captureSession = AVCaptureSession()
     var body: some View {
         CameraView()
-       
     }
 }
 
@@ -21,6 +20,7 @@ struct ARView_Previews: PreviewProvider {
         ARView()
     }
 }
+
 
 
 

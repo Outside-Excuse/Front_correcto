@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CAD2790290228C80029EF9D /* CView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD278F290228C80029EF9D /* CView.swift */; };
 		FA3EEC3528FD0EAD00993821 /* MarcosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3EEC3428FD0EAD00993821 /* MarcosView.swift */; };
 		FA3EEC3728FD16D900993821 /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3EEC3628FD16D900993821 /* ARView.swift */; };
 		FA3EEC3928FD17D700993821 /* FiltrosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3EEC3828FD17D700993821 /* FiltrosView.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7CAD278F290228C80029EF9D /* CView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CView.swift; sourceTree = "<group>"; };
 		FA3EEC3428FD0EAD00993821 /* MarcosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcosView.swift; sourceTree = "<group>"; };
 		FA3EEC3628FD16D900993821 /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
 		FA3EEC3828FD17D700993821 /* FiltrosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltrosView.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 			children = (
 				FA4CE02A28F5FA2800EE66E3 /* Info.plist */,
 				FA4CE02628F5F3C200EE66E3 /* MainView.swift */,
+				7CAD278F290228C80029EF9D /* CView.swift */,
 				FA57B51928E3691700E34B40 /* AppMaravillasApp.swift */,
 				FA57B51B28E3691700E34B40 /* MaravillasView.swift */,
 				FA57B54928E41F1400E34B40 /* MaravillasDetailView.swift */,
@@ -300,6 +303,7 @@
 				FA4CE02C28F5FC6700EE66E3 /* PerfilView.swift in Sources */,
 				FA57B54828E3891500E34B40 /* MaravillasViewModel.swift in Sources */,
 				FA3EEC3528FD0EAD00993821 /* MarcosView.swift in Sources */,
+				7CAD2790290228C80029EF9D /* CView.swift in Sources */,
 				FA4CE02728F5F3C200EE66E3 /* MainView.swift in Sources */,
 				FA57B51C28E3691700E34B40 /* MaravillasView.swift in Sources */,
 				FA3EEC3728FD16D900993821 /* ARView.swift in Sources */,
@@ -471,7 +475,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AppMaravillas/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need the camera permission";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need the photo library permission";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Access to Photo Library is needed for saving captured media.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -506,7 +510,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AppMaravillas/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need the camera permission";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need the photo library permission";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Access to Photo Library is needed for saving captured media.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

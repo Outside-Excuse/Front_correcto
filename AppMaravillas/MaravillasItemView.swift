@@ -17,8 +17,8 @@ struct MaravillaItemView: View {
         Image(maravilla.nombreImagen)
             .resizable()
             .scaledToFit()
-            .cornerRadius(30)
-            .frame(width: 380)
+            .cornerRadius(40)
+            .frame(width: 300)
             .overlay(alignment: .topLeading, content: {
                 Text(maravilla.titulo)
                     .foregroundColor(.white)

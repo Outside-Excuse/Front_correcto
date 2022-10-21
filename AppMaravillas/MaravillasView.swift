@@ -13,10 +13,10 @@ struct MaravillasView: View {
     var body: some View {
             NavigationView{
                 ZStack{
-                    Color(.white)
+                    Color("Fondo")
                         .edgesIgnoringSafeArea(.all)
                     ScrollView(.vertical, showsIndicators: false){
-                        Text("Hola\(nombre)")
+                        Text("Hola \(nombre)")
                         VStack{
                             ForEach(maravillasVM.arrMaravillas) { item in
                                 NavigationLink(destination: MaravillasDetailView(maravilla: item),
@@ -26,7 +26,7 @@ struct MaravillasView: View {
                         } //VStack
                     }//ScrollView
                 }//ZStack
-                .navigationTitle("Mis coches de sueño")
+                .navigationTitle("Anuncios")
                 
                 
                 
