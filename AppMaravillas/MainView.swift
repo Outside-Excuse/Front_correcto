@@ -21,6 +21,10 @@ struct MainView: View {
                 .tabItem{
                     Image(systemName:"camera.fill")
                     Text("AR art")
+                    Button(action: shareButton) {
+                        Image(systemName: "square.and.arrow.up")
+                                .foregroundColor(.black)
+                    }
                 }
       
             FiltrosView()
@@ -36,6 +40,13 @@ struct MainView: View {
                 }
         }
     }
+}
+
+func shareButton() {
+        let url = URL(string: "https://designcode.io")
+        let activityController = UIActivityViewController(activityItems: [url!], applicationActivities: nil)
+
+        UIApplication.shared.windows.first?.rootViewController!.present(activityController, animated: true, completion: nil)
 }
 
 struct MainView_Previews: PreviewProvider {
